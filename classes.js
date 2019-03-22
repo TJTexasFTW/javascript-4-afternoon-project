@@ -76,7 +76,7 @@ class Manager extends Employee {
   }
 }
 
-  // Manager();
+  let Manager1 = new Manager("Fred", "Flinstone", "FF@email.com", 138)
 
 ////////// PROBLEM 3 //////////
 
@@ -122,18 +122,18 @@ hire(employee) {
   } else if (this.reports.length > 100) {
     this.title = "Bestest Manager";
   }
-  return this.reports;
+  // return this.reports;
 }
 
-fire(index) {
-  super.fire(index);
+fire() {
+  // super.fire(index);
   this.bonus += 100;
-  return this.reports;
+  // return this.reports;
 }
 
 }
 
-// let pMgr_Ahole1 = new ProgressiveManager("Jack", "Ass", "JackAss@email.com", 169, [], "Not a manager", 0);
+let pMgr_Ahole1 = new ProgressiveManager("Jack", "Ass", "JackAss@email.com", 169, [], "Not a manager", 0);
 
 ////////// PROBLEM 4 - Black Diamond //////////
 
